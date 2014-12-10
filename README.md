@@ -1,7 +1,7 @@
 CRISPRdirect_crawl.pl
 ======================
 
-This script uses LWP::UserAgent to get CRISPR/Cas9 gRNAs from [CRISPRdirect] 
+This script uses LWP::UserAgent to get CRISPR/Cas9 gRNAs from [CRISPRdirect]
 (http://crispr.dbcls.jp/). LWP::UserAgent module is available at CPAN.
 
 ### Usage ###
@@ -47,7 +47,8 @@ command to prevent overloading CRISPRdirect web server.
 ### Options ###
 
 CRISPRdirect options can be set using ```%param```. 
-All of the parameters and values are described in the CRISPRdirect help page.
+All of the parameters and values are described in the API section of 
+CRISPRdirect [help page](http://crispr.dbcls.jp/doc/).
 
 ![parameters]
 (http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2014/12/CRISPRdirect_param.png
@@ -64,7 +65,7 @@ Parameters for designing human gRNAs with 'NGG' for PAM:
 	) ;
 
 **Example 2.**
-Parameters to get FASTA for NM_001187:
+Parameters to get NM_001187 sequence in FASTA format:
 
 	my %param = (
 		'accession' => 'NM_001187',

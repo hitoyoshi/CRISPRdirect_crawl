@@ -43,7 +43,7 @@
 #
 # Options:
 # CRISPRdirect options can be set using %param. All of the parameters and
-# values are described in the CRISPRdirect help page.
+# values are described in the API section of CRISPRdirect help page.
 #
 # Example 1)  Parameters for designing human gRNAs with 'NGG' for PAM:
 # my %param = (
@@ -53,7 +53,7 @@
 # 	'format'    => 'txt',
 # ) ;
 #
-# Example 2)  Parameters to get FASTA for NM_001187:
+# Example 2)  Parameters to get NM_001187 sequence in FASTA format:
 # my %param = (
 # 	'accession' => 'NM_001187',
 # 	'format'    => 'txt',
