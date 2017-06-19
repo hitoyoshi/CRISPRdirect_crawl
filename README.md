@@ -1,8 +1,9 @@
 CRISPRdirect_crawl.pl
 ======================
 
-This script uses LWP::UserAgent to get CRISPR/Cas9 gRNAs from [CRISPRdirect]
-(http://crispr.dbcls.jp/). LWP::UserAgent module is available at CPAN.
+This script uses LWP::UserAgent to get CRISPR/Cas9
+gRNAs from [CRISPRdirect](http://crispr.dbcls.jp/).  
+LWP::UserAgent module is available at CPAN.
 
 ### Usage ###
 
@@ -50,8 +51,7 @@ CRISPRdirect options can be set using ```%param```.
 All of the parameters and values are described in the API section of 
 CRISPRdirect [help page](http://crispr.dbcls.jp/doc/).
 
-![parameters]
-(http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2014/12/CRISPRdirect_param.png
+![parameters](http://data.dbcls.jp/~meso/img/CRISPRdirect_param.png
 "CRISPRdirect parameters")
 
 **Example 1.**
@@ -90,5 +90,5 @@ License
 Copyright &copy; 2014 Yuki Naito
  ([@meso_cacase](http://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
-This software is distributed under [modified BSD license]
- (http://www.opensource.org/licenses/bsd-license.php).
+This software is distributed under
+[modified BSD license](http://www.opensource.org/licenses/bsd-license.php).
